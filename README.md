@@ -15,6 +15,7 @@ Help with productivity-related tasks
 Simulate email/calendar/task management workflows
 
 🛠️ Tech Stack
+
 Python
 Streamlit
 n8n
@@ -22,6 +23,7 @@ Webhooks
 REST API calls
 
 ⚙️ How It Works
+
 User enters a message in the Streamlit chat UI
 The frontend sends the message to an n8n webhook
 n8n processes the request through the workflow
