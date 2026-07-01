@@ -64,7 +64,7 @@ and enforce correct execution sequences (e.g., always fetch calendar before send
 - SerpAPI key
 
 ### 1. Import the workflow
-In n8n: **New Workflow → Import from file** → select `personal_assistant_workflow.json`
+In n8n: **New Workflow → Import from file** → select `workflow.json`
 
 ### 2. Configure credentials in n8n
 Set up OAuth connections for:
@@ -105,7 +105,7 @@ streamlit run app.py
 ```
 n8n_Personal_Assistant/
 ├── app.py                          # Streamlit frontend
-├── personal_assistant_workflow.json # n8n workflow (import this)
+├── workflow.json # n8n workflow (import this)
 ├── requirements.txt
 └── README.md
 ```
