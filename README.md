@@ -34,7 +34,7 @@ executes them in the correct sequence, and returns a natural language response.
 ## ⚙️ Tech Stack
 
 - **AI Agent** — n8n LangChain Agent node (OpenRouter LLM)
-- **Memory** — n8n Window Buffer Memory (session-based, 50-message context)
+- **Memory** — n8n Window Buffer Memory (session-based)
 - **Workflow Orchestration** — n8n
 - **Frontend** — Python + Streamlit
 - **Integrations** — Gmail, Google Calendar, Google Tasks, Google Docs,
